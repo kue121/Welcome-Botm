@@ -22,10 +22,10 @@ const listener = app.listen(process.env.PORT, () => {
 const Discord = require ("discord.js")
 const moment = require ("moment")
 const DarkMan = new Discord.Client();
-const prefix = "D!";
+const prefix = "!";
 
 
-DarkMan.login("");
+DarkMan.login("OTYyMDEwMTk2OTY2Nzg5MTkw.YlBT0A.vdpFOk7kh5MZiLUqzgcomftmel4");
 DarkMan.on("ready", async () => {
   console.log(`Logged in as ${DarkMan.user.username}!`);
   DarkMan.user.setStatus("ONLINE");
